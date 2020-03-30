@@ -1,1 +1,41 @@
 @import "seattletimes";
+
+main.interactive {
+	max-width: 980px;
+	margin: auto;
+}
+
+thead {
+	color: @df-middle-gray;
+	font-size: 0.9em;
+	text-align: left;
+}
+
+th {
+	font-weight: normal;
+}
+
+.basic-info td {
+	border-top: 1px solid @df-light-gray;
+	border-bottom: 1px solid @df-light-gray;
+}
+
+.extra-info {
+	font-size: 0.9em;
+	&.shown {
+		display: table-row;
+	}
+	&.hidden {
+		display: none;
+	}
+}
+
+.question {
+	font-weight: bold;
+}
+
+.caption-container::after {
+	clear: both;
+	content: "";
+	display: block;
+}

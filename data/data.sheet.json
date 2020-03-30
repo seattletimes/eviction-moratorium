@@ -1,0 +1,72 @@
+[
+  {
+    "location": "Seattle",
+    "When did the eviction moratorium begin?": "March 17.",
+    "How long does the moratorium last?": "60 days.",
+    "When does the moratorium end?": "May 16.",
+    "Will I still owe back rent?": "Yes. ",
+    "Can my landlord charge late fees?": "No. ",
+    "Can my landlord still issue me a notice to pay rent within the next 14 days or vacate the property?": "Yes -- but until May 16, you can continue to live in your home even if you receive a pay-or-vacate order.",
+    "During the eviction moratorium, can my landlord initiate eviction actions in court?": "No. Eviction proceedings cannot be initiated and existing cases cannot be advanced in court during this time.",
+    "When can my landlord begin eviction actions in court?": "After May 16, when the city's eviction moratorium is lifted, landlords can begin eviction actions in court.",
+    "Can local law enforcement serve eviction orders issued before the moratorium took effect?": "No. On March 17, King County Sheriff Mitzi Johanknect announced her office will not serve or enforce residential or commercial eviction orders until the outbreak is over. ",
+    "What if my landlord started eviction actions against me before the moratorium, and I had a hearing scheduled in March or April? Will I still have to go to that hearing?": "No. Existing cases cannot be advanced in court until the moratorium ends in May.",
+    "Where do I go for help?": "Start by calling 2-1-1, which helps to direct Washingtonians to health and human services located in your community. Many rent assistance programs are specific to location and household. 2-1-1 operators can assess which programs you qualify for.  "
+  },
+  {
+    "location": "Edmonds",
+    "When did the eviction moratorium begin?": "March 25.",
+    "How long does the moratorium last?": "60 days, or until the city terminates its state of emergency, whichever comes first.",
+    "When does the moratorium end?": "May 24, or until the city terminates its state of emergency, whichever comes first.",
+    "Will I still owe back rent?": "Yes. ",
+    "Can my landlord charge late fees?": "No. ",
+    "Can my landlord still issue me a notice to pay rent within the next 14 days or vacate the property?": "Yes -- but until May 24 or the end of Edmonds' state of emergency, you can continue to live in your home even if you receive a pay-or-vacate order.",
+    "During the eviction moratorium, can my landlord initiate eviction actions in court?": "No. Eviction proceedings cannot be initiated and existing cases cannot be advanced in court during this time.",
+    "When can my landlord begin eviction actions in court?": "After May 24 or the end of Edmonds' state of emergency, when the eviction moratorium is lifted, landlords can begin eviction actions in court.",
+    "Can local law enforcement serve eviction orders issued before the moratorium took effect?": "No. Edmonds asked the Snohomish County Sheriff to cease execution of all eviction orders during the moratorium.",
+    "What if my landlord started eviction actions against me before the moratorium, and I had a hearing scheduled in March or April? Will I still have to go to that hearing?": "No. Existing cases cannot be advanced in court until the moratorium ends in May.",
+    "Where do I go for help?": "Start by calling 2-1-1, which helps to direct Washingtonians to health and human services located in your community. Many rent assistance programs are specific to location and household. 2-1-1 operators can assess which programs you qualify for.  "
+  },
+  {
+    "location": "Rest of King County",
+    "When did the eviction moratorium begin?": "March 18.",
+    "How long does the moratorium last?": "30 days. ",
+    "When does the moratorium end?": "April 17.",
+    "Will I still owe back rent?": "Yes. ",
+    "Can my landlord charge late fees?": "Yes. ",
+    "Can my landlord still issue me a notice to pay rent within the next 14 days or vacate the property?": "Yes -- but until April 17, you can continue to live in your home even if you receive a pay-or-vacate order.",
+    "During the eviction moratorium, can my landlord initiate eviction actions in court?": "No. Gov. Inslee's statewide eviction moratorium prohibits landlords from initiating eviction actions in court, even if they have issued a pay-or-vacate order.",
+    "When can my landlord begin eviction actions in court?": "After April 17, when the state's eviction moratorium is lifted, landlords can begin eviction actions in court.",
+    "Can local law enforcement serve eviction orders issued before the moratorium took effect?": "No. On March 17, King County Sheriff Mitzi Johanknect announced her office will not serve or enforce residential or commercial eviction orders until the outbreak is over. ",
+    "What if my landlord started eviction actions against me before the moratorium, and I had a hearing scheduled in March or April? Will I still have to go to that hearing?": "Not necessarily. A top King County judge suspended eviction hearings until March 30. If you had an eviction hearing scheduled between March 18 and March 30, it was rescheduled. Eviction hearings scheduled for April will proceed.",
+    "Where do I go for help?": "Start by calling 2-1-1, which helps to direct Washingtonians to health and human services located in your community. Many rent assistance programs are specific to location and household. 2-1-1 operators can assess which programs you qualify for.  "
+  },
+  {
+    "location": "Spokane",
+    "When did the eviction moratorium begin?": "March 23.",
+    "How long does the moratorium last?": "April 30, or until the end of the city's state of emergency, whichever comes first.",
+    "When does the moratorium end?": "April 30, or until the city terminates its state of emergency, whichever comes first.",
+    "Will I still owe back rent?": "Yes. ",
+    "Can my landlord charge late fees?": "No. ",
+    "Can my landlord still issue me a notice to pay rent within the next 14 days or vacate the property?": "Yes -- but until April 30 or the end of Spokane's state of emergency, you can continue to live in your home even if you receive a pay-or-vacate order.",
+    "During the eviction moratorium, can my landlord initiate eviction actions in court?": "No. Eviction proceedings cannot be initiated and existing cases cannot be advanced in court during this time.",
+    "When can my landlord begin eviction actions in court?": "After April 30 or the end of Spokane's state of emergency, when the eviction moratorium is lifted, landlords can begin eviction actions in court.",
+    "Can local law enforcement serve eviction orders issued before the moratorium took effect?": "Yes. ",
+    "What if my landlord started eviction actions against me before the moratorium, and I had a hearing scheduled in March or April? Will I still have to go to that hearing?": "Yes. However, existing eviction orders have been stayed until April 27 by order of the Spokane County Superior Court.",
+    "Where do I go for help?": "Start by calling 2-1-1, which helps to direct Washingtonians to health and human services located in your community. Many rent assistance programs are specific to location and household. 2-1-1 operators can assess which programs you qualify for.  "
+  },
+  {
+    "location": "Rest of Washington",
+    "When did the eviction moratorium begin?": "March 18.",
+    "How long does the moratorium last?": "30 days. ",
+    "When does the moratorium end?": "April 17.",
+    "Will I still owe back rent?": "Yes. ",
+    "Can my landlord charge late fees?": "Yes. ",
+    "Can my landlord still issue me a notice to pay rent within the next 14 days or vacate the property?": "Yes -- but until April 17, you can continue to live in your home even if you receive a pay-or-vacate order.",
+    "During the eviction moratorium, can my landlord initiate eviction actions in court?": "No. Gov. Inslee's statewide eviction moratorium prohibits landlords from initiating eviction actions in court, even if they have issued a pay-or-vacate order.",
+    "When can my landlord begin eviction actions in court?": "After April 17, when the state's eviction moratorium is lifted, landlords can begin eviction actions in court.",
+    "Can local law enforcement serve eviction orders issued before the moratorium took effect?": "Yes. ",
+    "What if my landlord started eviction actions against me before the moratorium, and I had a hearing scheduled in March or April? Will I still have to go to that hearing?": "Yes.",
+    "Where do I go for help?": "Start by calling 2-1-1, which helps to direct Washingtonians to health and human services located in your community. Many rent assistance programs are specific to location and household. 2-1-1 operators can assess which programs you qualify for.  "
+  }
+]
