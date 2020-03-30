@@ -5,19 +5,52 @@ main.interactive {
 	margin: auto;
 }
 
+table {
+	border-collapse: collapse;
+}
+
 thead {
 	color: @df-middle-gray;
 	font-size: 0.9em;
 	text-align: left;
 }
 
+th, td {
+	padding: 0 6px;
+}
+
 th {
+	border-bottom: 1px solid @df-light-gray;
 	font-weight: normal;
+	padding-bottom: 8px;
+}
+
+.basic-info:hover {
+	background-color: @st-light-blue;
+	cursor: pointer;
+}
+
+td {
+	border-bottom: 1px solid @df-light-gray;
 }
 
 .basic-info td {
-	border-top: 1px solid @df-light-gray;
-	border-bottom: 1px solid @df-light-gray;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.location {
+	font-weight: bold;
+}
+
+.icon {
+	font-weight: bold;
+	.expanded &::after {
+		content: "–";
+	}
+	.collapsed &::after {
+		content: "+";
+	}
 }
 
 .extra-info {

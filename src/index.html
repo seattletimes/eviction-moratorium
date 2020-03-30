@@ -3,7 +3,8 @@
     "Will I still owe back rent?",
     "Can my landlord charge late fees?",
     "Can my landlord still issue me a notice to pay rent within the next 14 days or vacate the property?",
-    "During the eviction moratorium, can my landlord initiate eviction actions in court? When can my landlord begin eviction actions in court?",
+    "During the eviction moratorium, can my landlord initiate eviction actions in court?",
+    "When can my landlord begin eviction actions in court?",
     "Can local law enforcement serve eviction orders issued before the moratorium took effect?",
     "What if my landlord started eviction actions against me before the moratorium, and I had a hearing scheduled in March or April? Will I still have to go to that hearing?",
     "Where do I go for help?"
@@ -24,26 +25,26 @@
     <% } %>
     <responsive-child>
       <main class="interactive">
-        <h1 class="graphic-hed">Rent moratorium</h1>
+        <h1 class="graphic-hed">How does the coronavirus eviction moratorium affect me?</h1>
         <table class="table">
           <thead>
             <tr>
               <th></th>
-              <th>Eviction moratorium started</th>
+              <th>Moratorium started</th>
               <th>Moratorium ends</th>
               <th></th>
             </tr>
           </thead>
           <tbody>
         <% json.data.forEach(function(d, i) { %>
-          <tr class="basic-info">
-            <td><%= d.location %></td>
+          <tr class="basic-info <%= i === 0 ? 'expanded' : 'collapsed' %>" data-question="<%= i %>">
+            <td class="location"><%= d.location %></td>
             <td><%= d["When did the eviction moratorium begin?"] %></td>
             <td><%= d["When does the moratorium end?"] %></td>
-            <td>></td>
+            <td><span class="icon"></span></td>
           </tr>
-          <tr class="extra-info <%= i === 0 ? 'shown' : 'hidden' %>">
-            <td colspan="3">
+          <tr class="extra-info <%= i === 0 ? 'shown' : 'hidden' %>" data-answer="<%= i %>">
+            <td colspan="4">
               <% questions.forEach(function(q) { %>
                 <p>
                   <span class="question"><%= q %></span>
@@ -51,7 +52,6 @@
                 </p>
               <% }); %>
             </td>
-            <td></td>
           </tr>
         <% }); %>
           </tbody>
