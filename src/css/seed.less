@@ -68,6 +68,7 @@ td {
 		border-top: 1px solid @df-light-gray;
 	}
 	.basic-info {
+		border-bottom: 1px solid @df-light-gray;
 		display: block;
 		position: relative;
 	}
@@ -78,19 +79,19 @@ td {
 	}
 	td.column--location, td.column--start-date, td.column--end-date {
 		display: block;
-		width: 100%;
+		width: ~"calc(100% - 30px)";
 	}
 	.column--location {
 		padding-top: 8px;
 	}
 	.column--end-date {
-		border-bottom: 1px solid @df-light-gray;
 		padding-bottom: 8px;
 	}
 	.column--icon {
+		margin-top: -15px;
 		position: absolute;
-		top: 0;
 		right: 0;
+		top: 50%;
 	}
 	.extra-info {
 		border-bottom: 1px solid @df-light-gray;
