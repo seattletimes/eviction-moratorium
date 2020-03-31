@@ -25,22 +25,83 @@ th {
 	padding-bottom: 8px;
 }
 
+.column--location {
+	font-weight: bold;
+	@media @tablet-up {
+		width: 200px;
+	}
+}
+
+.column--start-date {
+	@media @tablet-up {
+		width: 165px;
+	}
+}
+
+.column--icon {
+	text-align: center;
+	width: 30px;
+}
+
 .basic-info:hover {
 	background-color: @st-light-blue;
 	cursor: pointer;
 }
 
 td {
-	border-bottom: 1px solid @df-light-gray;
+	@media @tablet-up {
+		border-bottom: 1px solid @df-light-gray;
+	}
 }
 
-.basic-info td {
-	padding-top: 8px;
-	padding-bottom: 8px;
+@media @tablet-up {
+	.label-for-mobile {
+		display: none;
+	}
 }
 
-.location {
-	font-weight: bold;
+@media @mobile {
+	thead {
+		display: none;
+	}
+	table {
+		border-top: 1px solid @df-light-gray;
+	}
+	.basic-info {
+		display: block;
+		position: relative;
+	}
+	.label-for-mobile {
+		display: inline;
+		color: @df-middle-gray;
+		font-size: 16px;
+	}
+	td.column--location, td.column--start-date, td.column--end-date {
+		display: block;
+		width: 100%;
+	}
+	.column--location {
+		padding-top: 8px;
+	}
+	.column--end-date {
+		border-bottom: 1px solid @df-light-gray;
+		padding-bottom: 8px;
+	}
+	.column--icon {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.extra-info {
+		border-bottom: 1px solid @df-light-gray;
+	}
+}
+
+@media @tablet-up {
+	.basic-info td {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
 }
 
 .icon {

@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2020/business/coronavirus-eviction-moratorium"
     }
   },
   "title": "",
@@ -18,5 +18,5 @@
   "sheets": ["1oY5os8Mdr1lAXPR5wNSl086vyV45Rihxs1NZBVIWGp4"],
   "docs": [],
   "embedded": true,
-  "production": false
+  "production": true
 }
