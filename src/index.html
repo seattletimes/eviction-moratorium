@@ -38,7 +38,7 @@
           <tbody>
         <% json.data.forEach(function(d, i) { %>
           <tr class="basic-info <%= i === 0 ? 'expanded' : 'collapsed' %>" data-question="<%= i %>">
-            <td class="column--location"><%= d.location %></td>
+            <td class="column--location"><%= d.jurisdiction %></td>
             <td class="column--start-date"><span class="label-for-mobile">Moratorium started: </span><%= d["When did the eviction moratorium begin?"] %></td>
             <td class="column--end-date"><span class="label-for-mobile">Moratorium ends: </span><%= d["When does the moratorium end?"] %></td>
             <td class="column--icon"><span class="icon"></span></td>
